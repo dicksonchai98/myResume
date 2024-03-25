@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="profile">
+     <span class="profile-img"> <span><img src="./line_188716030462321.jpg" alt=""></span> </span>
+      <h3 class="name">蔡迪生 Dickson-Chai</h3>
+      <p class="text-color">前端工程師 Fronted Developr</p>
+      <div class="social">
+        <a href="https://github.com/dicksonchai98"><i class="bi bi-github"></i></a></i
+        ><a href="mailto:chaichaidickson@gmail.com"> <i class="bi bi-envelope"></i></a
+        ><a href="https://line.me/ti/p/pDLvcdmI7E"> <i class="bi bi-line"></i> </a>
+      </div>
+      <div class="experiences">
+        <div>
+          <p>1Y+</p>
+          <p class="text-color">工作經驗</p>
+        </div>
+        <div>
+          <p>2+</p>
+          <p class="text-color">完成專案</p>
+        </div>
+        <div>
+          <p>25Y</p>
+          <p class="text-color">目前年紀</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn">
+      <button onclick="openTab('experience')">經歷</button>
+      <button onclick="openTab('portfolio')">作品集</button>
+      <button onclick="openTab('skills')">技能</button>
+      <button><a href='https://drive.google.com/file/d/1TAOX4Z1FVUCrzhesZ4VpdccasVBG8E8c/view?usp=sharing'><i class="bi bi-box-arrow-up-right"></i>履歷</a></button>
+
+    </div>
+
+    <div id="experience" class="tabcontent active">
+      <h3><i class="bi bi-mortarboard text-color"></i></i>學經歷</h3>
+      <div class="experience-content">
+          <div class="step"><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="step-content">
+            <div><h3>自學前端</h3><p class="text-color">vue.js</p>
+                <p class="text-color">11.2023-現在</p></div>
+              <div><h3>統一期貨</h3><p class="text-color">期貨業務員</p>
+              <p class="text-color">01.2022-10.2023</p></div>
+          <div><h3>國立暨南國際大學</h3>
+          <p class="text-color">財務金融學系</p><p class="text-color">2017-2021</p></div></div>
+             </div>
+      </div>
+
+    <div id="portfolio" class="tabcontent">
+        <div class="portfolio">
+            
+            <div class="img"><img src="./Screenshot 2024-03-25 013751.png" alt=""></div>  
+              <div>
+                  <div class="portfolio-content"> <p class="text-color">個人專案</p>
+                              <h3>VILLAGE PARK</h3>
+                              <P>Village Park是一個主要以販賣馬來西亞美食-椰漿飯為主的形象網站兼購物平臺，用戶可透過在網站瞭解Village Park的歷史及購買美味的馬來西亞美食。構建網站使用的技術如下：</P>
+                              <a href="https://github.com/dicksonchai98/villagepark"><button><i class="bi bi-github"></i>github</button></a><a href="https://dicksonchai98.github.io/villagepark-vue-project/#/"><button><i class="bi bi-box-arrow-up-right"></i>demo</button>
+                              </a>
+                              </div>
+              </div>
+                </div>
+        </div>
+
+    <div id="skills" class="tabcontent">
+      <h3>前端開發</h3>
+      <div class="skill-content">
+          <ul><li><i class="bi bi-check2-circle"></i>html</li>
+          <li><i class="bi bi-check2-circle"></i>css</li>
+          <li><i class="bi bi-check2-circle"></i>javascript</li>
+          <li><i class="bi bi-check2-circle"></i>vue.js</li>
+          <li><i class="bi bi-check2-circle"></i>nuxt.js</li>
+          <li><i class="bi bi-check2-circle"></i>scss</li>
+          <li><i class="bi bi-check2-circle"></i>bootstrap</li>
+          <li><i class="bi bi-check2-circle"></i>typescript</li></ul>
+      </div>
+      <h3>其他</h3>
+      <div class="skill-content">
+          <ul><li><i class="bi bi-check2-circle"></i>figma</li>
+          <li><i class="bi bi-check2-circle"></i>adobe illus</li>
+          <li><i class="bi bi-check2-circle"></i>github\git</li>
+ 
+
+      <li><i class="bi bi-check2-circle"></i>vite</li>
+      <li><i class="bi bi-check2-circle"></i>firebase</li></ul>
+    </div>
+    <script src="myresume.js"></script>
+  </body>
+</html>
